@@ -1,9 +1,10 @@
-server:
-  port: 5002
 
 spring:
   application:
     name: DEPARTMENT-SERVICE
+
+server:
+  port: 5002
 
 eureka:
   client:
