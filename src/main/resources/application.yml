@@ -11,5 +11,5 @@ spring:
       profile: prod
       label: master
 server:
-  port: 5002
+  port: ${PORT:5002}
 
